@@ -1,4 +1,6 @@
-
+<?php
+require 'vendor/autoload.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
