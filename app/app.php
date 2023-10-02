@@ -3,6 +3,7 @@ if(session_status() !== PHP_SESSION_ACTIVE){
     session_start();
 }
 if(isset($_SESSION['user_agent'],$_SESSION['var_agent'])){
+    require '../vendor/autoload.php';
     require_once("../controller/mmshightech.php");
     $mmshightech=new mmshightech();
     $cur_user_row = $mmshightech->userInfo($_SESSION['user_agent']);

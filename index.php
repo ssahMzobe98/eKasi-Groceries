@@ -23,7 +23,7 @@ require 'vendor/autoload.php';
     <meta property="og:site_name" content="Netchatsa :: The best Edu technology" />
 
     <link rel="icon" href="img/logo-1933884_640.webp">
-    <title>Spaza Shop</title>
+    <title>eKasi Groceries</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -194,7 +194,7 @@ require 'vendor/autoload.php';
 
         <div class="form-value">
             <!-- <form action=""> -->
-            <h2>Spaza Management</h2>
+            <h2>eKasi Groceries</h2>
             <div class="inputbox">
                 <ion-icon name="mail-outline"></ion-icon>
                 <input type="email" required class="email">
@@ -259,7 +259,7 @@ require 'vendor/autoload.php';
                     }
                     else{
                         $(".processing").attr("style","padding:5px 5px;color:green;text-align:center;border:1px solid green;").html("Signing onto to your account..");
-                        window.location=("./spaza");
+                        window.location=("./eKasi");
                     }
 
                 }
